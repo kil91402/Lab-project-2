@@ -1,0 +1,1 @@
+Our lab-2 project was titled: "About Me", a quiz where the user has to answer questions about you.  It was an interesting, yet taxing project mainly due to techincal things.  The actual project itself was not that difficult.  As I am
