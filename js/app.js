@@ -36,7 +36,7 @@ if(answerThree === 'n' ||
 }
 if(answerFour === 'y' ||
  answerFour ==='yes'){
-    alert("You are correct!")
+    alert("You are correct! 1996 Boys' Basketball State Champs!!!")
     console.log("You are correct.");
 } else {
     // if 'n' then you are incorrect
@@ -48,6 +48,6 @@ answerFive ==='no'){
    console.log("You are correct.");
 } else {
    // if 'y' then you are incorrect
-   alert("You are incorrect!")
-   console.log("You are incorrect!");
+   alert("Negative!!!")
+   console.log("Negative!!!");
 }
