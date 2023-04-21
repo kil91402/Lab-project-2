@@ -1,1 +1,1 @@
-Our lab-2 project was titled: "About Me", a quiz where the user has to answer questions about you.  It was an interesting, yet taxing project mainly due to techincal things.  The actual project itself was not that difficult.  As I am
+The project went well.  I had some small issues coding wise that got figured out.  I was actually finished my assignment before time but had to go over a couple of coding issues.  My github was my real issue when it came down to submitting.  
