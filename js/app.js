@@ -3,8 +3,8 @@
 let answerOne = prompt("Do I like to travel?").toLowerCase()
 let answerTwo = prompt("Am I a people person?").toLowerCase()
 let answerThree = prompt ("Do I love my job?").toLowerCase()
-let answerFour = prompt ("Did I win a state championship in High School?").toLowerCase()
-let answerFive = prompt ("Have I ever lived outside of the United States?").toLowerCase()
+let answerFour = prompt ("Did I win a state championship in High School?").toUpperCase()
+let answerFive = prompt ("Have I ever lived outside of the United States?").toUpperCase()
 
 // if 'y' then you are correct
 
@@ -57,3 +57,4 @@ answerFive ==='no'){
    alert("Negative!!!")
    console.log("Negative!!!");
 }
+alert("Game Over!")

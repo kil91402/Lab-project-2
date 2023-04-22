@@ -1,20 +1,20 @@
 let number = prompt("Guess my favorite number")
 console.log("user guess num it: " + number)
 
-let favNum = 25;
+let favNum = 5;
 let counter = 0;
 
-while(counter <= 4){
+while(counter <= 6){
    
-    if (number < 25) {
+    if (number < 5) {
         alert('Sorry, too low!!');
         counter++;
     }
-    else if (number > 25) {
+    else if (number > 5) {
         alert('Nope, too high!!');
         counter++;
     }
-    else if (number == 25) {
+    else if (number == 5) {
         alert('Bust a move, you got it!!!');
                 break;
     }
