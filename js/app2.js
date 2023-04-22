@@ -16,6 +16,7 @@ while(counter <= 4){
     }
     else if (number == 25) {
         alert('Bust a move, you got it!!!');
+        userscore +=1
         break;
     }
 
@@ -32,7 +33,9 @@ while(a && count <=6){
     answer = prompt (question);
     if(answer === correctAns) {
         console.log("Do your happy dance!!!");
-      a = false
+        userscore +=1
+     
+     a = false
     
     } else {
         count++;
