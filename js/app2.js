@@ -16,8 +16,7 @@ while(counter <= 4){
     }
     else if (number == 25) {
         alert('Bust a move, you got it!!!');
-        userscore +=1
-        break;
+                break;
     }
 
     alert('Sorry, game over!! My favorite number is ' + favNum);
@@ -33,8 +32,7 @@ while(a && count <=6){
     answer = prompt (question);
     if(answer === correctAns) {
         console.log("Do your happy dance!!!");
-        userscore +=1
-     
+          
      a = false
     
     } else {
