@@ -1,11 +1,11 @@
-let number = prompt("Guess my favorite number")
-console.log("user guess num it: " + number)
+'use strict'
 
 let favNum = 5;
 let counter = 0;
 
 while(counter <= 6){
-   
+    let number = prompt("Guess my favorite number")
+    console.log("user guess num it: " + number)
     if (number < 5) {
         alert('Sorry, too low!!');
         counter++;
@@ -16,10 +16,10 @@ while(counter <= 6){
     }
     else if (number == 5) {
         alert('Bust a move, you got it!!!');
-                break;
+        break;
+    } else {
+        alert('Sorry, game over!! My favorite number is ' + favNum); 
     }
-
-    alert('Sorry, game over!! My favorite number is ' + favNum);
 }
 
 let answer;
