@@ -1,4 +1,4 @@
-# LAB - 03
+# LAB - 05b
 
 ## About Me
 
@@ -13,7 +13,7 @@ I created a guessing game titled: "About Me".  If the user answers correctly, th
 
 ### Lighthouse Accessibility Report Score
 
-/home/apage/projects/code-201/class-2-lab/img/Screenshot (65).png
+/home/apage/projects/code-201/class-2-lab/img/Screenshot (107).png
 
 ### Reflections and Comments
 

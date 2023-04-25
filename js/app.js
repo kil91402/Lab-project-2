@@ -13,7 +13,7 @@ let answerSeven = prompt ("Name one of my favorite sports.")
 
 if(answerOne === 'y' ||
  answerOne ==='yes') {
-   userScore++;
+   userScore ++;
 } else {
     // if 'n' then you are incorrect
     alert("You are incorrect!");
@@ -21,7 +21,7 @@ if(answerOne === 'y' ||
 
 if(answerTwo === 'y' ||
  answerTwo ==='yes') {
-    userScore++;
+    userScore ++;
 } else {
     // if 'n' then you are incorrect
     alert("You are incorrect!");
@@ -29,7 +29,7 @@ if(answerTwo === 'y' ||
 
 if(answerThree === 'n' ||
  answerThree ==='no') {
-    userScore++;
+    userScore ++;
 } else {
     // if 'y' then you are incorrect
     alert("You are incorrect!");
@@ -37,7 +37,7 @@ if(answerThree === 'n' ||
 
 if(answerFour === 'y' ||
  answerFour ==='yes') {
-    userScore++;
+    userScore ++;
 } else {
     // if 'n' then you are incorrect
     alert("You are incorrect!")
@@ -45,7 +45,7 @@ if(answerFour === 'y' ||
 
 if(answerFive === 'n' ||
 answerFive ==='no') {
-    userScore++;
+    userScore ++;
 } else {
    // if 'y' then you are incorrect
    alert("Negative!!!");
@@ -56,14 +56,14 @@ while(counter <= 6){
     console.log("user guess num it: " + number)
     if (number < 5) {
         alert('Sorry, too low!!');
-        counter++;
+        counter ++;
     }
     else if (number > 5) {
         alert('Nope, too high!!');
-        counter++;
+        counter ++;
     }
     else if (number == 5) {
-        userScore++;
+        userScore ++;
         break;
     } else {
         alert('Sorry, game over!! My favorite number is ' + favNum); 
@@ -72,17 +72,17 @@ while(counter <= 6){
 
 let answer;
 let correctAns = "football" || "basketball" || "tennis" || "baseball" || "golf" || "hockey";
-let count = 0
+let counter = 0
 let question = "Choose one of my favorite sports.";
 let a = true;
 
-while(a && count <=6){
+while(a && counter <=6){
     answer = prompt (question);
     if(answer === correctAns) {
-        userScore++;
+        userScore ++;
     a = false
     } else {
-        count++;
+        counter ++;
         console.log("Sorry, Gameover.");
     }
 } 
